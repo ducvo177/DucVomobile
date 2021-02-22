@@ -1,0 +1,109 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 1000px;
+    margin:0px auto;
+    
+}
+#menu_top{
+    background: black;
+    height: 40px;
+}
+#main #right img{
+    height: 400px;
+    width: 300px;
+}
+#banner{
+    background:black;
+    height: auto;
+    width: 1000px;
+
+}
+
+#main #right{
+    background-color: black;
+    min-height: 400px;
+    width: 300px;
+    float: left;
+}
+#main #left{
+    background-color:whitesmoke;
+    min-height: 400px;
+    width: 700px;
+    float: left;
+}
+#end{
+    background:white;
+    height: 60px;   
+    text-align: left;
+    clear:left;
+    text-size-adjust: 20px;
+    text-decoration:black;
+}
+#menu_top ul{
+    padding: 0px;
+    margin: 0px;
+
+
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+    
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    color: blanchedalmond;
+    padding: 0px 30px 0px 30px;
+    border-right: solid 1px white;
+    border-radius: 10%;
+    
+}
+#menu_top ul li a.active{
+    background:  rgb(4, 4, 146);
+}
+#banner img{
+    width: 1000px;
+}
+#main #left ul li img{
+    width: 120px;
+    height: auto;
+    border-radius: 15%;
+    border: 1px black;
+    float: left;
+}
+#main #left ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main #left ul li {
+    list-style: none;
+    clear:left;
+    border-bottom: 1px black;
+    padding: 40px 0px 40px 0px;
+    
+}
+#main #left ul li h {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    display: block;
+    
+}
+#main #left ul li h a{
+    text-decoration: none;
+}
+#main #left ul li h1 {
+    color: red;
+    font-size: medium;
+}
+#main #left ul li h2 {
+    widows: 300px;
+    color:black;
+    font-size:smaller;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
